@@ -2,11 +2,6 @@
 # --- Please run with administrator privileges ---
 echo "Starting macOS setup..."
 
-# Install Homebrew
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/$USER/.zprofile
-eval "$(/opt/homebrew/bin/brew shellenv)"
-
 # Install Visual Studio Code
 brew install --cask visual-studio-code
 code --install-extension ms-ceintl.vscode-language-pack-ja
